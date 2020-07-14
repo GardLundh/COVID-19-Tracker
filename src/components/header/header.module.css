@@ -1,0 +1,45 @@
+.header {
+  height: 100%;
+  width: 100px;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: white;
+  place-content: center;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: larger;
+}
+
+.about {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  padding: 10px;
+}
+
+.socials {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.icon {
+  color: white;
+}
+
+@media (max-width: 770px) {
+  .header {
+    width: 12%;
+  }
+}
